@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.gallery_stock img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.filter_section{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+}
+@media (max-width:575px) {
+    .filter_section{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,89 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.setting_tabs button{
+    display: block;
+}
+
+.set_tabs {
+    font-weight: 300;
+    padding: 4px 15px;
+    text-align: left;
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    
+}
+
+
+
+
+.active-setting-tabs  {
+    color: #4032E5;
+    font-weight: 500;
+
+}
+.active-setting-tabs::before {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 50%;
+	left: 0;
+	transform: translateY(50%);
+	width: 2px;
+    height: calc(100% + -5px);
+	background: #4032E5;
+}
+button {
+    border: none; 
+    background: #fff;
+}
+.content-tabs {
+    flex-grow : 1;
+}
+.setting-content {
+    background: white;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.content h2 {
+    padding: 0px 0 5px 0px;
+}
+.content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+}
+.content p {
+    width: 100%;
+    height: 100%;
+}
+.active-setting-content{
+    display: block;
+}
+
+.bloc_holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.row{
+    padding-bottom: 20px;
+}
+.load_more{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.content-tabs img{
+    width: 100%;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,29 @@
+.MuiFilledInput-underline::before {
+    border-bottom: none !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+textarea:focus-visible {
+    outline: none;
+}
+input:focus-visible {
+    outline: none;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .spining_load {
+        animation: loading-spin infinite 2s linear;
+    }
+}
+
+@keyframes loading-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

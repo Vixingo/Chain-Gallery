@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.artwork {
+    background-color: #f4f4f4;
+    width: 100%;
+}
+.artwork_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.artwork_img img {
+    width: 60%;
+    margin: 50px 10px;
+}
+
+/* art detail */
+.art_detail {
+    padding: 50px 0;
+    background-color: #fff;
+}
+.art_detail a {
+    color: #4032e5;
+    transition: 0.2s;
+}
+.art_detail h1 {
+    font-weight: 300;
+}
+.art_profile {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+.art_pro_name h5 {
+    margin: 0;
+    margin-left: 10px;
+}
+.art_pro_name h6 {
+    margin: 0;
+    margin-left: 10px;
+}
+.art_detail p {
+    margin-bottom: 0;
+}
+
+/* art details tabs */
+.art_tab {
+    font-size: unset;
+    font-weight: 500;
+}
+/* more_work_by */
+.more_work_by {
+    padding-bottom: 50px;
+}
+.more_work_by h1 {
+    font-weight: 300;
+}
+
+.card-footer {
+    border: none;
+    height: 100%;
+}
+.comment h1 {
+    font-weight: 300;
+}
+.activity h1 {
+    font-weight: 300;
+}
+.single_activity {
+    justify-content: space-between;
+}

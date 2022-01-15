@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.user_pic {
+    position: relative;
+    margin-top: -60px;
+    z-index: 1;
+}
+.user_details {
+    position: relative;
+    margin-top: -60px;
+    padding-top: 100px;
+    background: #fff;
+}
+.user_details h1 {
+    margin-bottom: 10px;
+}
+.user_details h6 {
+    margin-bottom: 10px;
+}
+.user_details p {
+    color: #707070;
+    margin-bottom: 20px;
+}
+.follow {
+    float: right;
+}
+.user_details .follow ul {
+    display: flex;
+    list-style: none;
+    float: right;
+}
+.user_details .follow ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* footer nav */
+.user_footer {
+    padding-top: 50px;
+}
+.footer_nav {
+    list-style: none;
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+}
+.footer_nav li {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.user_footer2 {
+    display: flex;
+    list-style: none;
+    color: #000;
+    flex-wrap: wrap;
+}
+.user_footer2 li {
+    margin-right: 20px;
+}
+.user_footer2 li a {
+    color: #707070;
+    text-decoration: none;
+}
+.user_footer3 {
+    display: flex;
+    list-style: none;
+    color: #000;
+    float: right;
+}
+.user_footer3 li {
+    margin-left: 25px;
+    color: #707070;
+}
